@@ -12,7 +12,7 @@ namespace Tvzon.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "12.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,49 +25,10 @@ namespace Tvzon.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsi=\"http://www.w3." +
-            "org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n  <s" +
-            "tring>svt1.svt.se</string>\r\n  <string>svt1hd.svt.se</string>\r\n  <string>svt2.svt" +
-            ".se</string>\r\n  <string>svt2hd.svt.se</string>\r\n  <string>tv3.se</string>\r\n  <st" +
-            "ring>hd.tv3.se</string>\r\n  <string>tv4.se</string>\r\n  <string>hd.tv4.se</string>" +
-            "\r\n  <string>fakta.tv4.se</string>\r\n  <string>film.tv4.se</string>\r\n  <string>spo" +
-            "rt.tv4.se</string>\r\n  <string>news.tv4.se</string>\r\n  <string>kanal5.se</string>" +
-            "\r\n  <string>hd.kanal5.se</string>\r\n  <string>tv6.se</string>\r\n  <string>tnt-tv.s" +
-            "e</string>\r\n  <string>sjuan.se</string>\r\n  <string>tv11.tv4.se</string>\r\n  <stri" +
-            "ng>tv8.se</string>\r\n  <string>kanal9.se</string>\r\n  <string>tv10.se</string>\r\n  " +
-            "<string>axess.se</string>\r\n  <string>showtime.nonstop.tv</string>\r\n  <string>sil" +
-            "ver.nonstop.tv</string>\r\n  <string>tcmeurope.com</string>\r\n  <string>eurosport.s" +
-            "e</string>\r\n  <string>eurosport2.se</string>\r\n  <string>kanalglobal.se</string>\r" +
-            "\n  <string>animalplanet.se</string>\r\n  <string>discoverychannel.se</string>\r\n  <" +
-            "string>science.discoverychannel.com</string>\r\n  <string>tlcsverige.se</string>\r\n" +
-            "  <string>hd.natgeo.se</string>\r\n  <string>cartoonnetwork.se</string>\r\n  <string" +
-            ">disneychannel.se</string>\r\n  <string>xd.disneychannel.se</string>\r\n  <string>bb" +
-            "cworldnews.com</string>\r\n  <string>nickelodeon.se</string>\r\n  <string>comedycent" +
-            "ral.tv</string>\r\n  <string>mtv.se</string>\r\n  <string>hd.mtv.se</string>\r\n  <str" +
-            "ing>star.nonstop.tv</string>\r\n  <string>vh1.se</string>\r\n  <string>cnn.com</stri" +
-            "ng>\r\n  <string>kunskapskanalen.svt.se</string>\r\n  <string>svtb-svt24.svt.se</str" +
-            "ing>\r\n  <string>travelchanneltv.se</string>\r\n</ArrayOfString>")]
-        public global::System.Collections.Specialized.StringCollection Channels {
-            get {
-                return ((global::System.Collections.Specialized.StringCollection)(this["Channels"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("C:\\ProgramData\\DVBLogic\\DVBLink\\xmltv\\tvzon.xml")]
         public string OutputPath {
             get {
                 return ((string)(this["OutputPath"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("7")]
-        public int Days {
-            get {
-                return ((int)(this["Days"]));
             }
         }
         
@@ -150,77 +111,124 @@ namespace Tvzon.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\r\n     <SerializableStringDictionary>\r\n      <ArrayOfAnyType xmlns:xsi=\"http://ww" +
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <string>svt1hd.svt.se</string>
+  <string>svt2hd.svt.se</string>
+  <string>hd.tv3.se</string>
+  <string>hd.tv4.se</string>
+  <string>film.tv4.se</string>
+  <string>news.tv4.se</string>
+  <string>hd.kanal5.se</string>
+  <string>tv6.se</string>
+  <string>sjuan.se</string>
+  <string>tv8.se</string>
+  <string>kanal9.se</string>
+  <string>discoverychannel.se</string>
+  <string>disneychannel.se</string>
+  <string>kunskapskanalen.svt.se</string>
+  <string>svtb-svt24.svt.se</string>
+  <string>emotion.cmore.se</string>
+  <string>sf-kanalen.cmore.se</string>
+  <string>first.cmore.se</string>
+  <string>series.cmore.se</string>
+  <string>hitshd.cmore.se</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection Channels {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["Channels"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("15")]
+        public int Days {
+            get {
+                return ((int)(this["Days"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("\r\n\t\t\t\t\t<SerializableStringDictionary>\r\n\t\t\t\t\t\t<ArrayOfAnyType xmlns:xsi=\"http://ww" +
             "w.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r" +
-            "\n       <anyType xsi:type=\"Node\">\r\n        <key>tnt-tv.se</key>\r\n        <val>tv" +
-            "7</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>kanal" +
-            "5.se</key>\r\n        <val>kanal5</val>\r\n       </anyType>\r\n       <anyType xsi:ty" +
-            "pe=\"Node\">\r\n        <key>star.nonstop.tv</key>\r\n        <val>star!</val>\r\n      " +
-            " </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>kunskapskanalen.svt." +
-            "se</key>\r\n        <val>kunskapskanalen</val>\r\n       </anyType>\r\n       <anyType" +
-            " xsi:type=\"Node\">\r\n        <key>kanalglobal.se</key>\r\n        <val>kanalglobal</" +
-            "val>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>silver.n" +
-            "onstop.tv</key>\r\n        <val>silver</val>\r\n       </anyType>\r\n       <anyType x" +
-            "si:type=\"Node\">\r\n        <key>svtb-svt24.svt.se</key>\r\n        <val>barnkanalen<" +
-            "/val>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>nickelo" +
-            "deon.se</key>\r\n        <val>nickelodeon</val>\r\n       </anyType>\r\n       <anyTyp" +
-            "e xsi:type=\"Node\">\r\n        <key>svt1.svt.se</key>\r\n        <val>svt1</val>\r\n   " +
-            "    </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>disneychannel.se<" +
-            "/key>\r\n        <val>disneychannel</val>\r\n       </anyType>\r\n       <anyType xsi:" +
-            "type=\"Node\">\r\n        <key>kanal9.se</key>\r\n        <val>kanal9</val>\r\n       </" +
-            "anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>tv10.se</key>\r\n        " +
-            "<val>tv10</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <k" +
-            "ey>showtime.nonstop.tv</key>\r\n        <val>showtime</val>\r\n       </anyType>\r\n  " +
-            "     <anyType xsi:type=\"Node\">\r\n        <key>tv6.se</key>\r\n        <val>tv6</val" +
-            ">\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>tv8.se</key" +
-            ">\r\n        <val>tv8</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n" +
-            "        <key>film.tv4.se</key>\r\n        <val>tv4film</val>\r\n       </anyType>\r\n " +
-            "      <anyType xsi:type=\"Node\">\r\n        <key>cartoonnetwork.se</key>\r\n        <" +
-            "val>cartoonnetwork</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n " +
-            "       <key>hd.mtv.se</key>\r\n        <val>mtvn-hd</val>\r\n       </anyType>\r\n    " +
-            "   <anyType xsi:type=\"Node\">\r\n        <key>sjuan.se</key>\r\n        <val>sjuan</v" +
-            "al>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>hd.tv4.se" +
-            "</key>\r\n        <val>tv4hd</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"N" +
-            "ode\">\r\n        <key>tv11.tv4.se</key>\r\n        <val>tv11</val>\r\n       </anyType" +
-            ">\r\n       <anyType xsi:type=\"Node\">\r\n        <key>svt1hd.svt.se</key>\r\n        <" +
-            "val>svt1hd</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <" +
-            "key>science.discoverychannel.com</key>\r\n        <val>discoveryscience</val>\r\n   " +
-            "    </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>xd.disneychannel." +
-            "se</key>\r\n        <val>disneyxd</val>\r\n       </anyType>\r\n       <anyType xsi:ty" +
-            "pe=\"Node\">\r\n        <key>animalplanet.se</key>\r\n        <val>animalplanet</val>\r" +
-            "\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>discoverychan" +
-            "nel.se</key>\r\n        <val>discovery</val>\r\n       </anyType>\r\n       <anyType x" +
-            "si:type=\"Node\">\r\n        <key>travelchanneltv.se</key>\r\n        <val>travel</val" +
-            ">\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>tcmeurope.c" +
-            "om</key>\r\n        <val>tcm</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"N" +
-            "ode\">\r\n        <key>bbcworldnews.com</key>\r\n        <val>bbcworld</val>\r\n       " +
-            "</anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>mtv.se</key>\r\n       " +
-            " <val>mtv</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <k" +
-            "ey>sport.tv4.se</key>\r\n        <val>tv4sport</val>\r\n       </anyType>\r\n       <a" +
-            "nyType xsi:type=\"Node\">\r\n        <key>axess.se</key>\r\n        <val>axesstv</val>" +
-            "\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>eurosport2.s" +
-            "e</key>\r\n        <val>eurosport2</val>\r\n       </anyType>\r\n       <anyType xsi:t" +
-            "ype=\"Node\">\r\n        <key>cnn.com</key>\r\n        <val>cnn</val>\r\n       </anyTyp" +
-            "e>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>hd.tv3.se</key>\r\n        <val" +
-            ">tv3hd</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>" +
-            "eurosport.se</key>\r\n        <val>eurosport</val>\r\n       </anyType>\r\n       <any" +
-            "Type xsi:type=\"Node\">\r\n        <key>hd.kanal5.se</key>\r\n        <val>kanal5hd</v" +
-            "al>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>svt2.svt." +
-            "se</key>\r\n        <val>svt2</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"" +
-            "Node\">\r\n        <key>svt2hd.svt.se</key>\r\n        <val>svt2hd</val>\r\n       </an" +
-            "yType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>tlcsverige.se</key>\r\n    " +
-            "    <val>tlc</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"Node\">\r\n       " +
-            " <key>tv3.se</key>\r\n        <val>tv3</val>\r\n       </anyType>\r\n       <anyType x" +
-            "si:type=\"Node\">\r\n        <key>tv4.se</key>\r\n        <val>tv4</val>\r\n       </any" +
-            "Type>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>hd.natgeo.se</key>\r\n      " +
-            "  <val>nationalgeographichd</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"" +
-            "Node\">\r\n        <key>fakta.tv4.se</key>\r\n        <val>tv4fakta</val>\r\n       </a" +
-            "nyType>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>comedycentral.tv</key>\r\n" +
-            "        <val>comedycentral</val>\r\n       </anyType>\r\n       <anyType xsi:type=\"N" +
-            "ode\">\r\n        <key>news.tv4.se</key>\r\n        <val>tv4news</val>\r\n       </anyT" +
-            "ype>\r\n       <anyType xsi:type=\"Node\">\r\n        <key>vh1.se</key>\r\n        <val>" +
-            "vh1</val>\r\n       </anyType>\r\n      </ArrayOfAnyType>\r\n     </SerializableString" +
-            "Dictionary>\r\n    ")]
+            "\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>first.cmore.se</key>\r\n\t\t\t\t\t\t\t\t<v" +
+            "al>c-more-first</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t" +
+            "\t\t\t\t<key>sf-kanalen.cmore.se</key>\r\n\t\t\t\t\t\t\t\t<val>sf-kanalen</val>\r\n\t\t\t\t\t\t\t</anyT" +
+            "ype>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>series.cmore.se</key>\r\n\t\t\t\t" +
+            "\t\t\t\t<val>c-more-series</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\"" +
+            ">\r\n\t\t\t\t\t\t\t\t<key>emotion.cmore.se</key>\r\n\t\t\t\t\t\t\t\t<val>c-more-emotion</val>\r\n\t\t\t\t\t" +
+            "\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>hitshd.cmore.se</ke" +
+            "y>\r\n\t\t\t\t\t\t\t\t<val>c-more-hits-hd</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:ty" +
+            "pe=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>svt1.svt.se</key>\r\n\t\t\t\t\t\t\t\t<val>svt1</val>\r\n\t\t\t\t\t\t\t</an" +
+            "yType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>svt2.svt.se</key>\r\n\t\t\t\t\t\t" +
+            "\t\t<val>svt2</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t" +
+            "<key>svt1hd.svt.se</key>\r\n\t\t\t\t\t\t\t\t<val>svt1hd</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<" +
+            "anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>svt2hd.svt.se</key>\r\n\t\t\t\t\t\t\t\t<val>svt2hd<" +
+            "/val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>tv3.se<" +
+            "/key>\r\n\t\t\t\t\t\t\t\t<val>tv3</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node" +
+            "\">\r\n\t\t\t\t\t\t\t\t<key>hd.tv3.se</key>\r\n\t\t\t\t\t\t\t\t<val>tv3hd</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t" +
+            "\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>tv4.se</key>\r\n\t\t\t\t\t\t\t\t<val>tv4</va" +
+            "l>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>hd.tv4.se<" +
+            "/key>\r\n\t\t\t\t\t\t\t\t<val>tv4hd</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"No" +
+            "de\">\r\n\t\t\t\t\t\t\t\t<key>kanal5.se</key>\r\n\t\t\t\t\t\t\t\t<val>kanal5</val>\r\n\t\t\t\t\t\t\t</anyType>" +
+            "\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>hd.kanal5.se</key>\r\n\t\t\t\t\t\t\t\t<va" +
+            "l>kanal5hd</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<" +
+            "key>fakta.tv4.se</key>\r\n\t\t\t\t\t\t\t\t<val>tv4fakta</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<" +
+            "anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>film.tv4.se</key>\r\n\t\t\t\t\t\t\t\t<val>tv4film</" +
+            "val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>sport.tv" +
+            "4.se</key>\r\n\t\t\t\t\t\t\t\t<val>tv4sport</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:" +
+            "type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>news.tv4.se</key>\r\n\t\t\t\t\t\t\t\t<val>tv4news</val>\r\n\t\t\t\t\t\t" +
+            "\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>tv6.se</key>\r\n\t\t\t\t\t\t" +
+            "\t\t<val>tv6</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<" +
+            "key>tnt-tv.se</key>\r\n\t\t\t\t\t\t\t\t<val>tv7</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType " +
+            "xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>sjuan.se</key>\r\n\t\t\t\t\t\t\t\t<val>sjuan</val>\r\n\t\t\t\t\t\t\t" +
+            "</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>tv11.tv4.se</key>\r\n\t\t" +
+            "\t\t\t\t\t\t<val>tv11</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t" +
+            "\t\t\t\t<key>tv8.se</key>\r\n\t\t\t\t\t\t\t\t<val>tv8</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyTyp" +
+            "e xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>kanal9.se</key>\r\n\t\t\t\t\t\t\t\t<val>kanal9</val>\r\n\t\t\t" +
+            "\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>tv10.se</key>\r\n\t\t" +
+            "\t\t\t\t\t\t<val>tv10</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t" +
+            "\t\t\t\t<key>axess.se</key>\r\n\t\t\t\t\t\t\t\t<val>axesstv</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<" +
+            "anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>showtime.nonstop.tv</key>\r\n\t\t\t\t\t\t\t\t<val>s" +
+            "howtime</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key" +
+            ">silver.nonstop.tv</key>\r\n\t\t\t\t\t\t\t\t<val>silver</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<" +
+            "anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>tcmeurope.com</key>\r\n\t\t\t\t\t\t\t\t<val>tcm</va" +
+            "l>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>eurosport." +
+            "se</key>\r\n\t\t\t\t\t\t\t\t<val>eurosport</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:t" +
+            "ype=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>eurosport2.se</key>\r\n\t\t\t\t\t\t\t\t<val>eurosport2</val>\r\n\t\t" +
+            "\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>kanalglobal.se</" +
+            "key>\r\n\t\t\t\t\t\t\t\t<val>kanalglobal</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:typ" +
+            "e=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>animalplanet.se</key>\r\n\t\t\t\t\t\t\t\t<val>animalplanet</val>\r\n" +
+            "\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>discoverychann" +
+            "el.se</key>\r\n\t\t\t\t\t\t\t\t<val>discovery</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xs" +
+            "i:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>science.discoverychannel.com</key>\r\n\t\t\t\t\t\t\t\t<val>di" +
+            "scoveryscience</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t" +
+            "\t\t\t<key>tlcsverige.se</key>\r\n\t\t\t\t\t\t\t\t<val>tlc</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<" +
+            "anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>hd.natgeo.se</key>\r\n\t\t\t\t\t\t\t\t<val>national" +
+            "geographichd</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t" +
+            "\t<key>cartoonnetwork.se</key>\r\n\t\t\t\t\t\t\t\t<val>cartoonnetwork</val>\r\n\t\t\t\t\t\t\t</anyTy" +
+            "pe>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>disneychannel.se</key>\r\n\t\t\t\t" +
+            "\t\t\t\t<val>disneychannel</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\"" +
+            ">\r\n\t\t\t\t\t\t\t\t<key>xd.disneychannel.se</key>\r\n\t\t\t\t\t\t\t\t<val>disneyxd</val>\r\n\t\t\t\t\t\t\t<" +
+            "/anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>bbcworldnews.com</key>" +
+            "\r\n\t\t\t\t\t\t\t\t<val>bbcworld</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node" +
+            "\">\r\n\t\t\t\t\t\t\t\t<key>nickelodeon.se</key>\r\n\t\t\t\t\t\t\t\t<val>nickelodeon</val>\r\n\t\t\t\t\t\t\t</" +
+            "anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>comedycentral.tv</key>\r" +
+            "\n\t\t\t\t\t\t\t\t<val>comedycentral</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"" +
+            "Node\">\r\n\t\t\t\t\t\t\t\t<key>mtv.se</key>\r\n\t\t\t\t\t\t\t\t<val>mtv</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t" +
+            "\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>hd.mtv.se</key>\r\n\t\t\t\t\t\t\t\t<val>mtvn-" +
+            "hd</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>star" +
+            ".nonstop.tv</key>\r\n\t\t\t\t\t\t\t\t<val>star!</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType " +
+            "xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>vh1.se</key>\r\n\t\t\t\t\t\t\t\t<val>vh1</val>\r\n\t\t\t\t\t\t\t</an" +
+            "yType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>cnn.com</key>\r\n\t\t\t\t\t\t\t\t<v" +
+            "al>cnn</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>" +
+            "kunskapskanalen.svt.se</key>\r\n\t\t\t\t\t\t\t\t<val>kunskapskanalen</val>\r\n\t\t\t\t\t\t\t</anyTy" +
+            "pe>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">\r\n\t\t\t\t\t\t\t\t<key>svtb-svt24.svt.se</key>\r\n\t\t\t" +
+            "\t\t\t\t\t<val>barnkanalen</val>\r\n\t\t\t\t\t\t\t</anyType>\r\n\t\t\t\t\t\t\t<anyType xsi:type=\"Node\">" +
+            "\r\n\t\t\t\t\t\t\t\t<key>travelchanneltv.se</key>\r\n\t\t\t\t\t\t\t\t<val>travel</val>\r\n\t\t\t\t\t\t\t</any" +
+            "Type>\r\n\t\t\t\t\t\t</ArrayOfAnyType>\r\n\t\t\t\t\t</SerializableStringDictionary>\r\n\t\t\t\t")]
         public global::SerializableStringDictionary TvNuMappings {
             get {
                 return ((global::SerializableStringDictionary)(this["TvNuMappings"]));
@@ -229,7 +237,42 @@ namespace Tvzon.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"
+					{
+					channels: [
+						{
+							channelId: ""hitshd.cmore.se"",
+							monday: { start: ""07:00"", end:""16:30""},
+							tuesday: { start: ""00:30"", end:""16:30""},
+							wednesday: { start: ""00:30"", end:""16:30""},
+							thursday: { start: ""00:30"", end:""16:30""},
+							friday: { start: ""00:30"", end:""23:59""},
+							saturday: { start: ""00:00"", end:""07:00""},
+							sunday: { start: ""00:00"", end:""00:00""}
+						},
+						{
+							channelId: ""emotion.cmore.se"",
+							monday: { start: ""01:00"", end:""18:30""},
+							tuesday: { start: ""01:00"", end:""18:30""},
+							wednesday: { start: ""01:00"", end:""18:30""},
+							thursday: { start: ""01:00"", end:""18:30""},
+							friday: { start: ""01:00"", end:""18:30""},
+							saturday: { start: ""00:00"", end:""00:00""},
+							sunday: { start: ""00:00"", end:""00:00""}
+						},
+						{
+							channelId: ""sf-kanalen.cmore.se"",
+							monday: { start: ""01:00"", end:""18:00""},
+							tuesday: { start: ""01:00"", end:""18:00""},
+							wednesday: { start: ""01:00"", end:""18:00""},
+							thursday: { start: ""01:00"", end:""18:00""},
+							friday: { start: ""01:00"", end:""18:00""},
+							saturday: { start: ""01:00"", end:""12:00""},
+							sunday: { start: ""01:00"", end:""12:00""}
+						}
+					]
+					}
+				")]
         public string ChannelSettings {
             get {
                 return ((string)(this["ChannelSettings"]));
