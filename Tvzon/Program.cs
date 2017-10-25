@@ -410,7 +410,9 @@ namespace Tvzon
 
 				}
 			}
-			var url = String.Format("http://www.tv.nu/kanal/{0}/{1}", urlPart, weekDay);
+			var url = String.Format("http://www.tv.nu/kanal/{0}", urlPart);
+			if (day != 0)
+				url += String.Format("/{0}", weekDay);
 			return url;
 		}
 
